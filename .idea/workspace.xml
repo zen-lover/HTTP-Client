@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="41ae7941-4fba-4466-aec5-c2784801d948" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/CenterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/CenterPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CenterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CenterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/RightPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RightPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TabbedPaneListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TabbedPaneListener" />
+      <module name="HTTP-Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="solve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solve" />
       <module name="HTTP-Client" />
@@ -64,6 +71,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TabbedPaneListener" />
         <item itemvalue="Application.GridBagLayoutDemo" />
         <item itemvalue="Application.solve" />
       </list>
@@ -83,22 +91,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589283400553">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589285056191">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589283400553" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589283400553">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589285056191" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589285056190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589283400553" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589283400552">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589285056190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589283400552" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589283400553">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589285056190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589283400553" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589278181015">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
