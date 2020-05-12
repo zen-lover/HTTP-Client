@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.text.html.HTML;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -107,6 +106,7 @@ public class Menu extends JMenuBar {
         this.add(application);
         this.add(view);
         this.add(help);
+        setTheme();
     }
 
     public void optionsMethod() {
@@ -131,5 +131,18 @@ public class Menu extends JMenuBar {
         optionFrame.setLayout(null);
         optionFrame.setVisible(true);
         optionFrame.setLocationRelativeTo(Main.HTTPClientGUI.frame);
+    }
+
+    public void setTheme() {
+        this.setBackground(GUI.theme);
+        application.setBackground(GUI.theme);
+        view.setBackground(GUI.theme);
+        help.setBackground(GUI.theme);
+        options.setBackground(GUI.theme);
+        exit.setBackground(GUI.theme);
+        toggleFullScreen.setBackground(GUI.theme);
+        toggleSidebar.setBackground(GUI.theme);
+        about.setBackground(GUI.theme);
+        helpItem.setBackground(GUI.theme);
     }
 }

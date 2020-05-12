@@ -10,6 +10,7 @@ public class GUI {
     private JMenuBar menuBar;
     public JSplitPane splitPane, splitPane1;
 
+    public static final Color theme = Color.WHITE;
     public static final int WIDTH = 1100;
     public static final int HEIGHT = 550;
 
@@ -40,9 +41,20 @@ public class GUI {
         frame.setLocationRelativeTo(null);
         frame.setBackground(Color.darkGray);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setTheme();
     }
 
     public void show() {
         frame.setVisible(true);
+    }
+
+    public void setTheme() {
+        frame.setBackground(theme);
+        leftPanel.setBackground(theme);
+        centerPanel.setBackground(theme);
+        rightPanel.setBackground(theme);
+        splitPane.setBackground(theme);
+        splitPane1.setBackground(theme);
+        menuBar.setBackground(theme);
     }
 }
