@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ae7941-4fba-4466-aec5-c2784801d948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +41,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GridBagLayoutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GridBagLayoutDemo" />
+      <module name="HTTP-Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HTTP-Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solve" />
       <module name="HTTP-Client" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -49,6 +66,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GridBagLayoutDemo" />
+        <item itemvalue="Application.solve" />
       </list>
     </recent_temporary>
   </component>
@@ -66,25 +85,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589145688315">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589282022072">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589145688315" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589145688314">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589282022072" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589282022071">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589145688314" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589145688314">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589282022071" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589282022071">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589145688314" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589145688314">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589282022071" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589282022071">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589145688314" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589144844650">
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589282022071" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589278181015">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589144844650" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589278181015" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589205976539">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589205976539" />
   </component>
 </project>
