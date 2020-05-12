@@ -1,7 +1,9 @@
 import javax.swing.*;
+import java.security.PublicKey;
 
 public class Main {
 
+    public static GUI HTTPClientGUI;
     public static void main(String[] args) {
 
         try {
@@ -15,7 +17,7 @@ public class Main {
             // If Nimbus is not available, you can set the GUI to another look and feel.
         }
 
-        GUI HTTPClientGUI = new GUI();
+        HTTPClientGUI = new GUI();
         HTTPClientGUI.show();
     }
 }

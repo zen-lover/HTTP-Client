@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ae7941-4fba-4466-aec5-c2784801d948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/HTTP-Client/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/RightPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RightPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTP-Client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTP-Client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bjTlNrpOhojt48DICj0JIU2kZ3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,6 +60,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <module name="HTTP-Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TabbedPaneListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TabbedPaneListener" />
       <module name="HTTP-Client" />
@@ -71,6 +84,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu" />
         <item itemvalue="Application.TabbedPaneListener" />
         <item itemvalue="Application.GridBagLayoutDemo" />
         <item itemvalue="Application.solve" />
@@ -91,22 +105,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589285056191">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589296601433">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589285056191" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589285056190">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589296601433" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589296601432">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589285056190">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589296601432" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589296601431">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589285056190">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589296601431" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589296601432">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589285056190" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589296601432" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589278181015">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

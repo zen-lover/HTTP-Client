@@ -3,10 +3,12 @@ import java.awt.*;
 import java.awt.image.ImageObserver;
 
 public class GUI {
-    private JFrame frame;
-    private JPanel leftPanel;
+    public JFrame frame;
+    public JPanel leftPanel;
     private JPanel centerPanel;
     private JPanel rightPanel;
+    private JMenuBar menuBar;
+    public JSplitPane splitPane, splitPane1;
 
     public static final int WIDTH = 1100;
     public static final int HEIGHT = 550;
@@ -15,15 +17,19 @@ public class GUI {
         frame = new JFrame("HTTP Client");
         frame.setLayout(new BorderLayout());
 
+        menuBar = new Menu();
+        frame.add(menuBar, BorderLayout.NORTH);
+        frame.setJMenuBar(menuBar);
+
         leftPanel = new LeftPanel();
         centerPanel = new CenterPanel();
         rightPanel = new RightPanel();
-        frame.add(leftPanel);
+        frame.add(leftPanel);       // TODO: Is this extra?
         frame.add(centerPanel);
         frame.add(rightPanel);
 
-        JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leftPanel, centerPanel);
-        JSplitPane splitPane1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, splitPane, rightPanel);
+        splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leftPanel, centerPanel);
+        splitPane1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, splitPane, rightPanel);
 
         splitPane.setDividerLocation(WIDTH/4);
         splitPane1.setDividerLocation(WIDTH*7/12);
